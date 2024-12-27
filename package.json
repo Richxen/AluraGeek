@@ -1,0 +1,14 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "Repositorio que almacenara el código base del challenge AluraGeek propuesto por Alura para la finalización del curso Front End G6 - ONE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maximiliano Fuentealba",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.0"
+  }
+}

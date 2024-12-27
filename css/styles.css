@@ -1,0 +1,317 @@
+:root {
+    --main-purple: #5300C8;
+    --secondary-purple: #5D04D9;
+    --shadow-grey: #b9b9b9;
+    --black-color: #000000;
+    --blue-color: #03318C;
+    --white-color: #FFFFFF;
+    --error-color: rgb(218, 72, 53);
+}
+
+* {
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Header */
+.header__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 0 7px 0.9px var(--shadow-grey);
+    background-color: var(--main-purple);
+}
+
+.header__content h1,
+.footer__content .logo__page {
+    font-size: 24px;
+    color: white;
+    font-family: "Press Start 2P";
+}
+
+/* Main */
+
+.main__container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* Form section*/
+.create__products {
+    padding: 40px;
+}
+
+.create__products__title {
+    font-size: 24px;
+    text-align: center;
+    color: var(--black-color);
+}
+
+.create__products,
+.create__products__form,
+.inputs__fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.create__products__form {
+    max-width: 472px;
+    width: 100%;
+}
+
+.inputs__fields,
+.inputs__field__container {
+    width: 100%;
+}
+
+.inputs__field__container p {
+    line-height: 1.8em;
+    display: none;
+}
+
+.inputs__fields input {
+    width: 94%;
+    height: 58px;
+    border: 3px solid var(--blue-color);
+    border-radius: 30px;
+    font-family: "IBM Plex Mono", monospace;
+    padding-left: 15px;
+}
+
+.inputs__fields input:focus {
+    outline: none;
+}
+
+.inputs__fields input::placeholder {
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 2px;
+    color: var(--blue-color);
+}
+
+.error__input__message {
+    color: var(--error-color);
+    font-size: 10px;
+    padding-left: 15px;
+    margin-top: 7px;
+}
+
+
+.form__buttons {
+    width: 100%;
+    display: flex;
+    gap: 13px;
+}
+
+.form__buttons input {
+    width: 50%;
+    height: 55px;
+    border-radius: 15px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form__buttons .input__submit__btn {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+.form__buttons .input__submit__btn:hover {
+    background-color: var(--secondary-purple);
+}
+
+.form__buttons .input__clean__btn {
+    background-color: var(--white-color);
+    color: var(--blue-color);
+    border: 3px solid var(--blue-color);
+}
+
+.form__buttons .input__clean__btn:hover {
+    background-color: var(--secondary-purple);
+    color: var(--white-color);
+    border: 3px solid var(--main-purple);
+}
+
+/* Products section */
+.products__section {
+    padding: 40px 0;
+}
+
+.products__section__empty__message {
+    text-align: center;
+    color: var(--error-color);
+    display: none;
+}
+
+.products__section_title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.products__section__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.products__card {
+    background-color: var(--secondary-purple);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 3px solid var(--black-color);
+    border-radius: 10px;
+    box-shadow: -5px 6px 3.3px var(--shadow-grey);
+    margin-bottom: 30px;
+}
+
+.products__card .products__card__img {
+    width: 200px;
+    height: 140px;
+}
+
+.card__container__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 176px;
+}
+
+.card__container__info p {
+    color: var(--white-color);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 15px;
+}
+
+.card__container__info .card__container__value {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__container__info .card__container__value p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card__container__info .card__container__value img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Footer */
+.footer__content {
+    margin-top: 40px;
+    background-color: var(--main-purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    box-shadow: 0px -10px 9.5px var(--shadow-grey);
+}
+
+.footer__content .logo__page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__content .copyright__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    color: var(--white-color);
+}
+
+.footer__content .copyright__info h5 {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 200;
+}
+
+/* Tablets */
+@media (min-width: 835px) {
+    .main__container {
+        width: 90%;
+        flex-direction: row;
+        gap: 20px;
+        margin: 0 auto;
+        margin-top: 40px;
+        padding: 40px 20px;
+    }
+
+    /* Form section*/
+    .create__products {
+        width: 25%;
+    }
+
+    .form__buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form__buttons input {
+        width: 100%;
+    }
+
+    /* Products section */
+    .products__section {
+        width: 65%;
+        height: 650px;
+        overflow-y: scroll;
+        box-shadow: -9px 8px 2.7px var(--shadow-grey);
+    }
+
+    /* scroll bar styles */
+    .products__section::-webkit-scrollbar {
+        width: 4px;
+        height: auto;
+        background: transparent;
+    }
+
+    .products__section::-webkit-scrollbar-thumb {
+        background: var(--shadow-grey);
+        border-radius: 10px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+
+    /* Main */
+    .main__container {
+        justify-content: center;
+        gap: 70px;
+        padding: 60px 40px;
+    }
+
+    /* Form section */
+    .form__buttons {
+        flex-direction: row;
+    }
+
+    /* Products section */
+    .products__section {
+        width: 678px;
+        height: 971px;
+        overflow-y: scroll;
+        box-shadow: -12px 10px 5.8px var(--shadow-grey);
+    }
+
+    .products__section::-webkit-scrollbar {
+        width: 8px;
+    }
+}

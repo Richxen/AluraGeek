@@ -1,0 +1,52 @@
+{
+  "productos": [
+    {
+      "id": "f03c",
+      "nombre": "Super Mario Party™ Jamboree",
+      "precio": "60.990",
+      "imagen": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000084608/ba0572bf9d840b03bf9958809943fb3c76c3adfd6d8f2704b0f1b766f8aa4027"
+    },
+    {
+      "id": "f0f6",
+      "nombre": "The Legend of Zelda™: Echoes of Wisdom",
+      "precio": "57.990",
+      "imagen": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000084618/e3a49cf14180cec09c515595fb7121b048a0f8327eae2d248909d0f0c64a9dc9"
+    },
+    {
+      "id": "5085",
+      "nombre": "Legacy of Kain™ Soul Reaver 1&2 Remastered",
+      "precio": "23.999",
+      "imagen": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000071002/96672de15064fbf98036660c15c1a03fd5dfad6c2c60f3898fb659cfb67f7821"
+    },
+    {
+      "id": "8cc2",
+      "nombre": "MySims™: Cozy Bundle",
+      "precio": "31.233",
+      "imagen": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000084815/75826a6bef43399a5092771092ddf67c519567c08cf6b94d18101218d650132b"
+    },
+    {
+      "id": "65a6",
+      "nombre": "Super Mario Bros.™ Wonder",
+      "precio": "58.990",
+      "imagen": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000068688/1c5583f6bbce5bccdc923c25c35ba8f42128b55df84f4a2fbeea74b6d1d1516e"
+    },
+    {
+      "id": "e067",
+      "nombre": "Luigi's Mansion™ 2 HD",
+      "precio": "58.990",
+      "imagen": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000072954/00eac347ef3029bfe156b030be64c0274cd5dea1df4df57b12855c823ef7deb4"
+    },
+    {
+      "id": "f10f",
+      "nombre": "Animal Crossing™: New Horizons Bundle (Game + DLC)",
+      "precio": "60.046",
+      "imagen": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/es_LA/dlc/switch-dlc/animal-crossing-new-horizons-dlc/rom-bundle/animal-crossing-new-horizons-bundle-game-plus-dlc/image"
+    },
+    {
+      "id": "4750",
+      "nombre": "Paquete de Mario Kart™ 8 Deluxe (Juego + Pase de pistas extras)",
+      "precio": "85.780",
+      "imagen": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70070000016659/3e14e6ac6dd5e8e92c713f1fe00b5988efc726e86928ffb9b3db5db0d4836412"
+    }
+  ]
+}
